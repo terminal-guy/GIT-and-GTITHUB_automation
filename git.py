@@ -11,15 +11,18 @@ import getpass
 
 reponameinput = input('Enter your repo name: ')
 
+username = "  " # ENTER YOU NAME HERE
+password = "  " #  ENTER YOUR PASSWORD
+
 driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get("https://github.com/")
 signin = driver.find_element_by_css_selector('body > div.position-relative.js-header-wrapper > header > div > div.HeaderMenu.HeaderMenu--logged-out.position-fixed.top-0.right-0.bottom-0.height-fit.position-lg-relative.d-lg-flex.flex-justify-between.flex-items-center.flex-auto > div.d-lg-flex.flex-items-center.px-3.px-lg-0.text-center.text-lg-left > a.HeaderMenu-link.no-underline.mr-3')
 signin.click()
 username = driver.find_element_by_css_selector('#login_field')
-username.send_keys('Vishal-Adhithya')
+username.send_keys(username)
 password = driver.find_element_by_css_selector('#password')
-password.send_keys('flutterdev05')
+password.send_keys(password)
 submit = driver.find_element_by_css_selector('#login > form > div.auth-form-body.mt-3 > input.btn.btn-primary.btn-block')
 submit.click()
 newrepo = driver.find_element_by_css_selector('#repos-container > h2 > a')
@@ -48,7 +51,7 @@ copycode = driver.find_element_by_css_selector('#js-repo-pjax-container > div.co
 copycode.click()
 
 
-path = "V:/Projects/"
+path = "#V:/Projects/" # ENTER YOU FOLDER WHICH PYTHON WANT TO OPEN 
 path = os.path.realpath(path)
 os.startfile(path)
 
