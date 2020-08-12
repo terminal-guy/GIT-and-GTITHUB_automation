@@ -50,7 +50,26 @@ code.click()
 copycode = driver.find_element_by_css_selector('#js-repo-pjax-container > div.container-xl.clearfix.new-discussion-timeline.px-3.px-md-4.px-lg-5 > div > div.gutter-condensed.gutter-lg.d-flex.flex-column.flex-md-row > div.flex-shrink-0.col-12.col-md-9.mb-4.mb-md-0 > div.file-navigation.mb-3.d-flex.flex-items-start > span > get-repo > details > div > div > div:nth-child(1) > div > div.ssh-clone-options > div > div > clipboard-copy')
 copycode.click()
 
+copyorginalcode = pyperclip.paste()
+print(copyorginalcode)
 
-path = "#V:/Projects/" # ENTER YOU FOLDER WHICH PYTHON WANT TO OPEN 
-path = os.path.realpath(path)
-os.startfile(path)
+path = "V:/Projects/" # TODO: ENTER YOUR PATH HER LIKE THIS 
+
+os.chdir(path)
+os.getcwd()
+os.system('git clone '+copyorginalcode)
+print('done cloning')
+
+pathtwo = path + reponameinput
+os.chdir(pathtwo)
+os.getcwd()
+os.system('git init')
+os.system('git add .')
+
+os.system('code .')# this will open vs code this is where i usally work so it is your choice you can open any editor 
+
+
+
+
+
+
