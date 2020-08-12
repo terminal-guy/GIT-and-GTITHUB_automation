@@ -1,5 +1,3 @@
-# GIT-automation-using-selenium
-
 
 GITHUB AUTOMATION USING PYTHON AND SELENIUM
 
