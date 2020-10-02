@@ -14,7 +14,10 @@ reponameinput = input('Enter your repo name: ')
 username = "  " # ENTER YOU NAME HERE
 password = "  " #  ENTER YOUR PASSWORD
 
-driver = webdriver.Chrome()
+
+path_chrome = r"" # relative path of the chrome driver installed 
+driver = webdriver.Chrome(path_chrome)
+
 driver.maximize_window()
 driver.get("https://github.com/")
 signin = driver.find_element_by_css_selector('body > div.position-relative.js-header-wrapper > header > div > div.HeaderMenu.HeaderMenu--logged-out.position-fixed.top-0.right-0.bottom-0.height-fit.position-lg-relative.d-lg-flex.flex-justify-between.flex-items-center.flex-auto > div.d-lg-flex.flex-items-center.px-3.px-lg-0.text-center.text-lg-left > a.HeaderMenu-link.no-underline.mr-3')
@@ -53,7 +56,7 @@ copycode.click()
 copyorginalcode = pyperclip.paste()
 print(copyorginalcode)
 
-path = "V:/Projects/" # TODO: ENTER YOUR PATH HER LIKE THIS 
+path = "G:/Projects/" # TODO: ENTER YOUR PATH HER LIKE THIS 
 
 os.chdir(path)
 os.getcwd()
