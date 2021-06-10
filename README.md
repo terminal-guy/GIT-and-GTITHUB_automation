@@ -8,7 +8,7 @@ REQUIREMENTS:
   * CHROME WITH DRIVER INSTALLED
   
   
- It Will Automatically Goes to the Repo and It Will Ask for the Repo Name When You Run It 
+ It will Automatically Goes to the Repo and It Will Ask for the Repo Name When You Run It 
  
  # TODO
  
