@@ -37,7 +37,7 @@
 * And You Can Clone It in Our Repo Easily 
 ___
  
-#### RUNNING THE SCRIPT
+### RUNNING THE SCRIPT
 
 * To Run the Script Use python pit.py
 * To Run the Script in Catalina Use python3 git.py
