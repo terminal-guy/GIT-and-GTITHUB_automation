@@ -20,7 +20,7 @@
  
  * Enter Your Path in the File as Mention in the File
  
- > *THAT'S ALL* 
+ > **THAT'S ALL** 
  
  
 ### THINGS IT WILL DO 
