@@ -42,5 +42,5 @@ To Run the Script in Catalina Use python3 git.py
  
  
  
-##  HAPPY CODING:)
+##  HAPPY AUTOMATNG:)
    
