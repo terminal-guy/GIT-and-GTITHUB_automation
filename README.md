@@ -8,7 +8,7 @@
   * CHROME WITH DRIVER INSTALLED
   
   
- > It will Automatically Goes to the Repo and It Will Ask for the Repo Name When You Run It 
+ > It will Automatically goes to the Repo and It Will Ask for the Repo Name When You Run It 
  
  # TODO
  
