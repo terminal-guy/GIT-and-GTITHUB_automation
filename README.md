@@ -12,13 +12,13 @@ REQUIREMENTS:
  
  ### TODO
  
- ENTER YOUR REPO NAME (while run it will ask for the repo enter it)
+ * Enter Your Repo Name (While Run It Will Ask for the Repo Enter It)
  
- ENTER YOUR USERNAME OR AND PASSWORD IN THE FILE
+ * Enter Your Username or and Password in the File
  
- AND SPECIFILE THE FOLDER PATHE TO OPEN TO CLONE THE FILE
+ * And Specify the Folder Path to Open to Clone the File
  
- ENTER YOUR PATH IN THE FILE AS MENTION IN THE FILE
+ * Enter Your Path in the File as Mention in the File
  
  THAT'S ALL 
  
@@ -27,7 +27,7 @@ REQUIREMENTS:
 ### THINGS IT WILL DO 
  
  
-  IT WILL GO TO OUR GITHUB ACCOUNT AND LOGIN YOU 
+ IT WILL GO TO OUR GITHUB ACCOUNT AND LOGIN YOU 
  
  AND CREATE A NEW REPOSITORY AND CLONE THE URL
  
