@@ -24,21 +24,21 @@
  
  ___
  
-### THINGS IT WILL DO 
+#### THINGS IT WILL DO 
  
  
- IT WILL GO TO OUR GITHUB ACCOUNT AND LOGIN YOU 
+It Will Go to Our Github Account and Login You 
+
  
- AND CREATE A NEW REPOSITORY AND CLONE THE URL
+* And Create a New Repository and Clone the Url
  
- AND OPENS YOUR FOLDER WHICH YOU SPECIFIED IN THE FILE 
+* Opens Your Folder Which You Specified in the File 
+
+* And You Can Clone It in Our Repo Easily 
  
- AND YOU CAN CLONE IT IN OUR REPO EASYILY 
   
-  
- TO RUN THE SCRIPT USE python git.py
- 
- TO RUN THE SCRIPT IN CATLINA USE PYTHON3 git.py
+To Run the Script Use python pit.py
+To Run the Script in Catalina Use python3 git.py
  
  
  
