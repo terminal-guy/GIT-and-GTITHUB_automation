@@ -24,10 +24,10 @@
  
  ___
  
-#### THINGS IT WILL DO 
+### THINGS IT WILL DO 
  
  
-It Will Go to Our Github Account and Login You 
+* It Will Go to Our Github Account and Login You 
 
  
 * And Create a New Repository and Clone the Url
